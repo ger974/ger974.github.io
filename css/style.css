@@ -1,0 +1,161 @@
+body{
+    font-family: 'century Gothic', Calibri, Spicy Rice serif;
+    font-size: 13px  
+    margin:0px;
+    padding:0px;/* padding e margin:0 pour reset tous les navigateur*/
+    background:yellow;
+    margin:3px;
+    padding:10px;
+    color: black;
+    border-collapse:2px;
+}
+h1{
+    color:#222222;
+    font-size:40px;
+    border:2px solid black;
+    border-style:solid;
+    border-color:red;
+    text-align:center;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:25px;
+    width:500px;
+    margin:auto;
+
+}
+a:hover{
+    color:red;
+    background-color: black;
+}
+header{
+    height:130px;
+}
+
+nav li{
+    list-style-type: none;
+    float:left;
+    width: 350px;
+
+}
+nav ul{
+    margin:0px;
+    padding:0px;
+    
+}	
+.content{
+	position:relative;
+	width: 10px;
+	display: block;
+	}					/*******Gestion du robot et la vidéo********/
+.robot{
+	position:relative;
+	width: 350px;
+	display: block;
+}
+.robot img{				/*******Gestion du robot et la vidéo********/
+	width: 100%;
+	height:auto;
+	justify-content: center;
+}
+														
+.robot .video{			/*******Gestion de la vidéo (<-direction->)********/
+position:absolute;
+top:2%;
+left: 50%;
+width: 85%;
+
+}
+.robot .video video{	/*******Gestion de  la vidéo********/
+width: 100%;
+}
+
+video{
+	border-radius: 20px 20px 15px 5px;
+
+}
+figcaption{
+	color:red;
+	font-size:15px;
+}
+
+nav{                       /*******Gestion des Navigateurs********/
+    width:100%;
+    opacity: 0.9;
+    justify-content: space-between;
+}
+nav a{
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    color:#FFF;
+    text-transform:uppercase;
+    text-align :center;
+    font-size:16px;
+}
+nav li:hover{
+    padding:15px 30px 20px 30px;
+
+}
+.table{
+    display:table;
+    margin:0px;
+}
+
+.menu:hover{					/*******Gestion dez menus********/
+    border-top:5px solid lime ;
+    background-color:grey/*rgba(241,211,70,0.15*/);
+}
+.menu-news:hover{
+    border-top:5px solid red ;
+    background-color:rgba(241,211,70,0.15);
+
+}
+.menu-port:hover{
+    border-top:5px solid blue ;
+    background-color:rgba(241,211,79,0.15);
+    opacity: 0.9;
+}
+
+.menu-cont:hover{
+    border-top:5px solid yellow ;
+    background-color:rgba(200,200,79,0.15);
+}
+
+footer{
+    height:60px;
+    padding-top:25px;
+    text-align:center;
+    background-color:#c5c5c5;
+    border-top:1px solid #AAA;
+
+}
+								/*******Gestion des @média queries********/
+
+@media screen and (min-width: 680px){
+    body{
+        /* Rédige nos propriétés CSS */
+   background-color:green;
+
+    }
+
+     
+    @media screen and (min-width: 681px) and (max-width: 1280px){
+        /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise
+entre 1024px et 1280px */
+/* Sur les téléviseurs */
+        body{
+            background-color:;
+        }
+        @media tv{
+ /* Sur tous types d'écrans orientés verticalement */
+        }
+@media all and (orientation: portrait){
+
+}    
+
+#bloc_page
+{width: 900px; margin: auto; }
+/*la largeur de la page est fixée à 900 px et le contenu est centré :*/
+@media all and (max-width: 1024px)
+{#bloc_page { width: auto;}
+}
+/*Pour tous les types d'écrans,

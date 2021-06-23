@@ -1,0 +1,124 @@
+body{
+  background:#58391D;
+  background-attachment: fixed;
+  background:cover;
+}
+
+
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: /*#326395*/#FFFAE1;
+  position: fixed;
+  width: 25%;
+  opacity: 0.9;
+  margin-top: 10px;
+  height:60px;
+  transition: 0.7s;
+ 
+ }
+/* **************** ENLEVER LES PUCES ************* */
+li{
+   list-style-type: none;
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+
+/* **************** IMAGE PRINCIPALE ************* */
+#fond {
+  padding-top: 60px;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+
+p{
+  font-size:20px;
+
+}
+#Trait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: orange/*#FFFAE1*/;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  text-align: center;
+  color:antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+/* *************** PRESENTATION ********************** */
+#presentation {
+  background-color: #E3C0AB;
+  padding: 10px 0px 100px 0;
+}
+#texteIntro {
+  padding: 0px 20%;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;  
+}
+.imagesPrestations h4 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imagesPrestations img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+/* **************** DECOUVERTE ********************** */
+#Autres {
+  height: 1400px;
+  background-color: #f1f2f6;
+  padding: 1px 2%;
+}
+#Autres h2 {
+  padding-top: 60px;
+}
+
+#Autres li {
+  margin: 65px 100px 0 100px;
+  height: 226px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+}
+#Autres p {
+  height: 45px;
+  width: 235px;
+  background-color: #01DF74;
+  float:right;
+  margin: 50px -180px 0 0;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  /*box-shadow: 4px 4px 0 1px rgba(90,161,43,1);*/
+}
